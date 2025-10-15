@@ -10,4 +10,4 @@ wheels/
 .venv
 
 # Data
-taskmanager/taskmanager/src/data
+src/taskmanager/data
