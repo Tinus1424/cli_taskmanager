@@ -13,9 +13,7 @@ def add_task(task, verbose):
 
     with open(file_path, "r") as f:
         tasks = json.load(f)
-    if tasks[task]:
-        print(f"Task already in task list")
-        return
+        
     tasks[task] = "started"
 
     

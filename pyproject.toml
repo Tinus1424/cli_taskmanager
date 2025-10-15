@@ -1,7 +1,12 @@
 [project]
 name = "taskmanager"
-version = "0.1.0"
+version = "0.1.1"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "argparse>=1.4.0",
+]
+
+[project.scripts]
+taskmanager = "taskmanager.cli:main"
